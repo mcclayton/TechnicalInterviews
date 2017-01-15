@@ -24,9 +24,10 @@ public class Solution {
         // Convert left shift to right shift (Easier to deal with)
         int numbersLength = numbers.length;
         int rightShift = numbersLength - (d%numbersLength);
+        // Create a new array for the result
         int[] result = new int[numbersLength];
         for (int i = 0; i < numbersLength; i++) {
-            // Rotate the array
+            // Store the resulting rotated index values into the result array
             result[(i + rightShift) % numbersLength] = numbers[i];
         }
         for (int i=0; i<result.length; i++) {
