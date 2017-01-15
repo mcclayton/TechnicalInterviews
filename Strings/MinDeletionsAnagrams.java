@@ -12,7 +12,7 @@ import java.util.regex.*;
  * Solution = 4 character deletions are required to make `a` and `b` anagrams 
  */
 
-public class Solution {
+public class MinDeletionsAnagrams {
     public static int numberNeeded(String first, String second) {
       // Get frequency counts for both strings
       int bitVectorA[] = getFrequencyBitVector(first);

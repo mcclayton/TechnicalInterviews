@@ -10,7 +10,7 @@ import java.math.*;
  * Solution = 5 1 2 3 4
  */
 
-public class Solution {
+public class LeftRotation {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
