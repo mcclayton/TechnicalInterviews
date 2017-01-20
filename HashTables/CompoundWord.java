@@ -19,7 +19,8 @@ public class CompoundWord {
         String[] wordList = {"run", "horse", "paper", "foo", "bar", "news"};
         canGenerateWord(word, wordList); // Return true for this example
     }
-    
+
+    // This solution is O(n + m) where n is the length of word and m is the length of wordList
     public static boolean canGenerateWord(String word, String[] wordList) {
         // Create Hash Table for each entry in the word list that maps each word to itself
         HashMap<String, String> wordMap = new HashMap<String, String>();
