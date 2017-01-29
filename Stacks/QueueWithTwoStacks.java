@@ -4,6 +4,13 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+/**
+ * Implement a queue using two stacks. Then process `n` queries, where each query is one of the following 3 types:
+ * `1 x`: Enqueue element `x` into the end of the queue.
+ * `2`: Dequeue the element at the front of the queue.
+ * `3`: Print the element at the front of the queue.
+ */
+
 public class QueueWithTwoStacks {
     public static class MyQueue<T> {
         Stack<T> stackNewestOnTop = new Stack<T>();
@@ -45,6 +52,7 @@ public class QueueWithTwoStacks {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
         
+        // Process the `n` queries
         for (int i = 0; i < n; i++) {
             int operation = scan.nextInt();
             if (operation == 1) { // enqueue
