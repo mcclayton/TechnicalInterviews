@@ -1,5 +1,9 @@
 /**
- * Detect a cycle in a linked list. Note that the head pointer may be 'null' if the list is empty.
+ * Reverse a linked list recursively and return the new head of the reversed list.
+ * i.e.
+ * (1) -> (2) -> (3) -> (4) -> NULL
+ * becomes
+ * (4) -> (3) -> (2) -> (1) -> NULL
  * A Node is defined as:
  *   class Node {
  *     int data;
@@ -33,7 +37,8 @@ public class ReverseLinkedListRecursive {
 
     /**
      * (1) -> (2) -> (3) -> (4) -> NULL
-     * Reverse of `n` elements list `l` is the reverse of `l + 1` follow by `l`
+     * Reverse of `n` elements list `l` is the reverse of the list at `l + 1` follow by `l` node
+     * Ex:
      * 1 <- [ 2 <- [ 3 <- [ 4 ] ] ] -> NULL
      */
     public static Node reverseList(Node list) {
