@@ -36,6 +36,9 @@ public class ReverseLinkedListRecursive {
     }
 
     /**
+     * 1. What is the reverse of null (the empty list)? A: Null.
+     * 2. What is the reverse of a one element list?    A: The element.
+     * 3. What is the reverse of an n element list?     A: The reverse of the second element on followed by the first element.
      * (1) -> (2) -> (3) -> (4) -> NULL
      * Reverse of `n` elements list `l` is the reverse of the list at `l + 1` follow by `l` node
      * Ex:
