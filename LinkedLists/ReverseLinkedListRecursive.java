@@ -42,7 +42,7 @@ public class ReverseLinkedListRecursive {
      * (1) -> (2) -> (3) -> (4) -> NULL
      * Reverse of `n` elements list `l` is the reverse of the list at `l + 1` follow by `l` node
      * Ex:
-     * 1 <- [ 2 <- [ 3 <- [ 4 ] ] ] -> NULL
+     * NULL <- 1 <- [ 2 <- [ 3 <- [ 4 ] ] ]
      */
     public static Node reverseList(Node list) {
         // Reverse of null is null
