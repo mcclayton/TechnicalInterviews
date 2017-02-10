@@ -50,7 +50,7 @@ public class WildcardPatternMatching {
             return s == 0;
         }
 
-        // Create lookup table
+        // Create lookup table to store results of previous computations
         // resultsTable[i][j] = true if first `i` characters
         // of text match with first `j` characters of pattern
         boolean[][] resultsTable = new boolean[s+1][p+1];
