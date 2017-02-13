@@ -6,6 +6,7 @@ questions and other resources.
 │   ├── LeftRotation.java  
 │   └── ShiftZeroesToEnd.java  
 ├── DynamicProgramming  
+│   ├── CoinChange.java  
 │   └── WildcardPatternMatching.java  
 ├── HashTables  
 │   ├── CompoundWord.java  
@@ -22,7 +23,6 @@ questions and other resources.
 ├── Strings  
 │   ├── MinDeletionsAnagrams.java  
 │   └── StringRotationCheck.java  
-├── gitCommit.sh  
 └── temp.txt  
   
 7 directories, 15 files  
