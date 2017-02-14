@@ -6,7 +6,7 @@ import java.math.*;
 /**
  * Given a value N, if we want to make change for N cents, and we have
  * infinite supply of each of S = { S1, S2, .. , Sm} valued coins, how many
- * ways can we make the change? The order of coins doesn’t matter.
+ * ways can we make the change? The order of coins doesn't matter.
  * Ex:
  * For `sum` = 10 and `S` = {2, 5, 3, 6}, there are five solutions:
  * {2,2,2,2,2}, {2,2,3,3}, {2,2,6}, {2,3,5} and {5,5}.
@@ -14,7 +14,6 @@ import java.math.*;
 public class CoinChange {
 
     public static void main(String[] args) {
-        String text = "baaabab";
         int[] changeSet = new int[] {2, 5, 3, 6};
         System.out.println(countWays(changeSet, changeSet.length, 10));  // 5
 
