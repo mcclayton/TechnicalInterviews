@@ -5,7 +5,7 @@ import java.math.*;
 
 /**
  * The awards committee had planned to give `n` research grants this year, out of
- * a its total yearly budget. However, the budget was reduced to `b` dollars.
+ * its total yearly budget. However, the budget was reduced to `b` dollars.
  * The committee members has decided to affect the minimal number of highest
  * grants, by applying a maximum cap `c` on all grants: every grant that was
  * planned to be higher than `c` will now be `c` dollars. Help the committee
