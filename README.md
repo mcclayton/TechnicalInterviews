@@ -1,6 +1,7 @@
 # TechnicalInterviews
 A compilation of my solutions to technical interview
 questions and other resources.
+```  
 .  
 ├── Arrays  
 │   ├── LeftRotation.java  
@@ -25,6 +26,9 @@ questions and other resources.
 ├── Strings  
 │   ├── MinDeletionsAnagrams.java  
 │   └── StringRotationCheck.java  
+├── git  
+│   └── hooks  
+│       └── pre-commit  
 └── temp.txt  
   
-8 directories, 16 files  
+10 directories, 17 files  
