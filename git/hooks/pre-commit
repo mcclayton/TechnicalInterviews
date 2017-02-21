@@ -9,8 +9,9 @@ command -v tree >/dev/null 2>&1 || {
 cat ./.readme_gen/README_TITLE.md > README.md
 echo "\`\`\`" >> temp.txt # Start markdown code block
 tree >> temp.txt
-awk '{print $0"  "}' temp.txt >> README.md
 echo "\`\`\`" >> temp.txt # End markdown code block
+
+awk '{print $0"  "}' temp.txt >> README.md
 rm temp.txt
 echo "README was updated."
 
