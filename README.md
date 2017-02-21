@@ -16,6 +16,8 @@ questions and other resources.
 ├── LinkedLists  
 │   ├── HasCycle.java  
 │   └── ReverseLinkedListRecursive.java  
+├── Mathematical  
+│   └── FindGrantsCap.java  
 ├── README.md  
 ├── Stacks  
 │   ├── BalancedBrackets.java  
@@ -25,4 +27,4 @@ questions and other resources.
 │   └── StringRotationCheck.java  
 └── temp.txt  
   
-7 directories, 15 files  
+8 directories, 16 files  
