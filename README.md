@@ -18,17 +18,12 @@ questions and other resources.
 │   └── ReverseLinkedListRecursive.java  
 ├── Mathematical  
 │   └── FindGrantsCap.java  
-├── README.md  
 ├── Stacks  
 │   ├── BalancedBrackets.java  
 │   └── QueueWithTwoStacks.java  
-├── Strings  
-│   ├── MinDeletionsAnagrams.java  
-│   └── StringRotationCheck.java  
-├── git  
-│   └── hooks  
-│       └── pre-commit  
-└── tree.txt  
+└── Strings  
+    ├── MinDeletionsAnagrams.java  
+    └── StringRotationCheck.java  
   
-9 directories, 17 files  
+7 directories, 14 files  
 ```
