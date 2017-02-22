@@ -13,8 +13,6 @@ questions and other resources.
 ├── HashTables  
 │   ├── CompoundWord.java  
 │   └── RansomNote.java  
-├── Heaps  
-│   └── RunningMedian.java  
 ├── LinkedLists  
 │   ├── HasCycle.java  
 │   └── ReverseLinkedListRecursive.java  
@@ -32,5 +30,5 @@ questions and other resources.
 │       └── pre-commit  
 └── temp.txt  
   
-10 directories, 18 files  
+9 directories, 17 files  
 ```  
