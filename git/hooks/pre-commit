@@ -11,7 +11,7 @@ cat ./.readme_gen/README_TITLE.md > README.md   # Add README_TITLE to README
 echo "\`\`\`" >> README.md                      # Start markdown code block
 awk '{print $0"  "}' temp.txt >> README.md      # Add file tree to README
 echo "\`\`\`" >> README.md                      # End markdown code block
-rm temp.txt
+rm tree.txt
 echo "README was updated."
 
 git add README.md
