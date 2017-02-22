@@ -7,9 +7,9 @@ command -v tree >/dev/null 2>&1 || {
 
 # Update the README with new file structure.
 cat ./.readme_gen/README_TITLE.md > README.md
-echo "\`\`\`" >> temp.txt # Start markdown code block
 tree >> temp.txt
-echo "\`\`\`" >> temp.txt # End markdown code block
+awk '{print "\`\`\`" $0}' temp.txt # Start markdown block by prepending backticks to file
+echo "\`\`\`" >> temp.txt # End markdown code block by appending backticks to file
 
 awk '{print $0"  "}' temp.txt >> README.md
 rm temp.txt
