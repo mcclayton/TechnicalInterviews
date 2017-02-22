@@ -6,7 +6,7 @@ command -v tree >/dev/null 2>&1 || {
 }
 
 # Update the README with new file structure.
-tree >> tree.txt
+tree -I 'git|tree.txt|README.md' >> tree.txt
 cat ./.readme_gen/README_TITLE.md > README.md   # Add README_TITLE to README
 echo "\`\`\`" >> README.md                      # Start markdown code block
 awk '{print $0"  "}' tree.txt >> README.md      # Add file tree to README
