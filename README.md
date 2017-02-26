@@ -25,6 +25,4 @@ questions and other resources.
     ├── MinDeletionsAnagrams.java  
     ├── StringRotationCheck.java  
     └── StrobogrammaticNumber.java  
-  
-7 directories, 15 files  
 ```
