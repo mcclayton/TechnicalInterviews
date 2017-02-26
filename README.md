@@ -23,7 +23,8 @@ questions and other resources.
 │   └── QueueWithTwoStacks.java  
 └── Strings  
     ├── MinDeletionsAnagrams.java  
-    └── StringRotationCheck.java  
+    ├── StringRotationCheck.java  
+    └── StrobogrammaticNumber.java  
   
-7 directories, 14 files  
+7 directories, 15 files  
 ```
