@@ -11,26 +11,33 @@ http://www.learn4master.com/interview-questions/leetcode/leetcode-problems-class
 ```
 .  
 ├── Arrays  
-│   ├── LeftRotation.java  
-│   ├── MaximumSumSubarray.java  
-│   ├── ShiftZeroesToEnd.java  
-│   └── ValidateSudoku.java  
+│   └── Java  
+│       ├── LeftRotation.java  
+│       ├── MaximumSumSubarray.java  
+│       ├── ShiftZeroesToEnd.java  
+│       └── ValidateSudoku.java  
 ├── DynamicProgramming  
-│   ├── CoinChange.java  
-│   └── WildcardPatternMatching.java  
+│   └── Java  
+│       ├── CoinChange.java  
+│       └── WildcardPatternMatching.java  
 ├── HashTables  
-│   ├── CompoundWord.java  
-│   └── RansomNote.java  
+│   └── Java  
+│       ├── CompoundWord.java  
+│       └── RansomNote.java  
 ├── LinkedLists  
-│   ├── HasCycle.java  
-│   └── ReverseLinkedListRecursive.java  
+│   └── Java  
+│       ├── HasCycle.java  
+│       └── ReverseLinkedListRecursive.java  
 ├── Mathematical  
-│   └── FindGrantsCap.java  
+│   └── Java  
+│       └── FindGrantsCap.java  
 ├── Stacks  
-│   ├── BalancedBrackets.java  
-│   └── QueueWithTwoStacks.java  
+│   └── Java  
+│       ├── BalancedBrackets.java  
+│       └── QueueWithTwoStacks.java  
 └── Strings  
-    ├── MinDeletionsAnagrams.java  
-    ├── StringRotationCheck.java  
-    └── StrobogrammaticNumber.java  
+    └── Java  
+        ├── MinDeletionsAnagrams.java  
+        ├── StringRotationCheck.java  
+        └── StrobogrammaticNumber.java  
 ```
