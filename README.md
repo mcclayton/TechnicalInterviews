@@ -11,12 +11,13 @@ http://www.learn4master.com/interview-questions/leetcode/leetcode-problems-class
 ```
 .  
 ├── Arrays  
-│   └── Java  
-│       ├── LeftRotation.java  
-│       ├── MaximumSumSubarray.java  
-│       ├── ShiftZeroesToEnd.java  
-│       ├── ValidateSudoku.class  
-│       └── ValidateSudoku.java  
+│   ├── Java  
+│   │   ├── LeftRotation.java  
+│   │   ├── MaximumSumSubarray.java  
+│   │   ├── ShiftZeroesToEnd.java  
+│   │   ├── ValidateSudoku.class  
+│   │   └── ValidateSudoku.java  
+│   └── JavaScript  
 ├── DynamicProgramming  
 │   └── Java  
 │       ├── CoinChange.java  
@@ -36,9 +37,10 @@ http://www.learn4master.com/interview-questions/leetcode/leetcode-problems-class
 │   └── Java  
 │       ├── BalancedBrackets.java  
 │       └── QueueWithTwoStacks.java  
-└── Strings  
-    └── Java  
-        ├── MinDeletionsAnagrams.java  
-        ├── StringRotationCheck.java  
-        └── StrobogrammaticNumber.java  
+├── Strings  
+│   └── Java  
+│       ├── MinDeletionsAnagrams.java  
+│       ├── StringRotationCheck.java  
+│       └── StrobogrammaticNumber.java  
+└── package.json  
 ```
