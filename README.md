@@ -36,6 +36,7 @@ http://www.learn4master.com/interview-questions/leetcode/leetcode-problems-class
 │       └── StrobogrammaticNumber.java  
 └── JavaScript  
     ├── Arrays  
+    │   └── LeftRotation.js  
     ├── DynamicProgramming  
     ├── HashTables  
     ├── LinkedLists  
