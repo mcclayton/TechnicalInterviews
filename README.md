@@ -10,37 +10,36 @@ http://www.learn4master.com/interview-questions/leetcode/leetcode-problems-class
 
 ```
 .  
-├── Arrays  
-│   ├── Java  
+├── Java  
+│   ├── Arrays  
 │   │   ├── LeftRotation.java  
 │   │   ├── MaximumSumSubarray.java  
 │   │   ├── ShiftZeroesToEnd.java  
-│   │   ├── ValidateSudoku.class  
 │   │   └── ValidateSudoku.java  
-│   └── JavaScript  
-├── DynamicProgramming  
-│   └── Java  
-│       ├── CoinChange.java  
-│       └── WildcardPatternMatching.java  
-├── HashTables  
-│   └── Java  
-│       ├── CompoundWord.java  
-│       └── RansomNote.java  
-├── LinkedLists  
-│   └── Java  
-│       ├── HasCycle.java  
-│       └── ReverseLinkedListRecursive.java  
-├── Mathematical  
-│   └── Java  
-│       └── FindGrantsCap.java  
-├── Stacks  
-│   └── Java  
-│       ├── BalancedBrackets.java  
-│       └── QueueWithTwoStacks.java  
-├── Strings  
-│   └── Java  
+│   ├── DynamicProgramming  
+│   │   ├── CoinChange.java  
+│   │   └── WildcardPatternMatching.java  
+│   ├── HashTables  
+│   │   ├── CompoundWord.java  
+│   │   └── RansomNote.java  
+│   ├── LinkedLists  
+│   │   ├── HasCycle.java  
+│   │   └── ReverseLinkedListRecursive.java  
+│   ├── Mathematical  
+│   │   └── FindGrantsCap.java  
+│   ├── Stacks  
+│   │   ├── BalancedBrackets.java  
+│   │   └── QueueWithTwoStacks.java  
+│   └── Strings  
 │       ├── MinDeletionsAnagrams.java  
 │       ├── StringRotationCheck.java  
 │       └── StrobogrammaticNumber.java  
-└── package.json  
+└── JavaScript  
+    ├── Arrays  
+    ├── DynamicProgramming  
+    ├── HashTables  
+    ├── LinkedLists  
+    ├── Mathematical  
+    ├── Stacks  
+    └── Strings  
 ```
